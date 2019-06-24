@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/screen_login_size"
+            android:textColor="@color/white"
+            android:text="@string/screen_login"
+            android:id="@+id/screen_login"
+            android:layout_marginTop="@dimen/screen_login_margin_top"
+            android:layout_marginLeft="@dimen/screen_login_margin_left"/>
+
+    <EditText
+            android:layout_width="@dimen/screen_user_width"
+            android:layout_height="@dimen/screen_user_height"
+            android:id="@+id/screen_user"
+            android:text="@string/screen_user"
+            android:textSize="@dimen/screen_user_size"
+            android:textColor="@color/white"
+            android:gravity="center_vertical|center"
+            android:layout_marginLeft="@dimen/screen_user_margin_left"
+            android:layout_marginTop="@dimen/screen_user_margin_top"/>
+
+    <ImageView
+            android:layout_width="@dimen/icon"
+            android:layout_height="@dimen/icon"
+            android:id="@+id/icon_user"
+            android:src="@mipmap/icon_user"
+            android:layout_marginLeft="@dimen/icon_margin_left"
+            android:layout_marginTop="@dimen/icon_margin_top"/>
+
+    <EditText
+            android:layout_width="@dimen/screen_password_width"
+            android:layout_height="@dimen/screen_password_height"
+            android:id="@+id/screen_password"
+            android:text="@string/screen_password"
+            android:textSize="@dimen/screen_password_size"
+            android:textColor="@color/spruce"
+            android:gravity="center_vertical|center"
+            android:layout_below="@+id/screen_user"
+            android:layout_marginLeft="@dimen/screen_password_margin_left"/>
+
+    <ImageView
+            android:layout_width="@dimen/icon"
+            android:layout_height="@dimen/icon"
+            android:id="@+id/icon_password"
+            android:src="@mipmap/icon_lock"
+            android:layout_below="@id/icon_user"
+            android:layout_marginLeft="@dimen/icon_margin_left"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/screen_incorrect_password"
+            android:textColor="@color/pink"
+            android:layout_below="@id/screen_password"
+            android:layout_centerHorizontal="true"/>
+
+    <Button
+            android:layout_width="@dimen/button_login_width"
+            android:layout_height="@dimen/button_login_height"
+            android:id="@+id/button_login"
+            android:text="@string/button_login"
+            android:textSize="@dimen/button_login_size"
+            android:textColor="@color/white"
+            android:background="@drawable/login_background"
+            android:layout_marginLeft="@dimen/button_login_margin_left"
+            android:layout_marginTop="@dimen/button_login_margin_top"/>
+
+    <TextView
+            android:layout_width="@dimen/screen_signup_width"
+            android:layout_height="@dimen/screen_signup_height"
+            android:text="@string/screen_signup"
+            android:textColor="@color/white"
+            android:layout_below="@id/button_login"
+            android:layout_marginLeft="@dimen/screen_signup_margin_left"/>
+
+    <Button
+            android:layout_width="@dimen/button_signup_width"
+            android:layout_height="@dimen/button_signup_height"
+            android:background="@drawable/background"
+            android:text="@string/button_signup"
+            android:textColor="@color/frost"
+            android:textSize="@dimen/button_signup_size"
+            android:layout_below="@id/button_login"
+            android:layout_marginLeft="@dimen/button_signup_margin_left"/>
+
+
+</RelativeLayout>

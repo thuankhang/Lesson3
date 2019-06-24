@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RelativeLayout</string>
+    <string name="screen_login">Log In</string>
+    <string name="screen_user">keevarleo</string>
+    <string name="screen_password">password</string>
+    <string name="screen_incorrect_password">Incorrect password.</string>
+    <string name="button_login">LOG IN</string>
+    <string name="screen_signup">First time here</string>
+    <string name="button_signup">SIGN UP</string>
+
+</resources>
